@@ -9,6 +9,6 @@ st.write(df)
 # or
 df  #magic comments
 # visualize
-st.line_chart(df)
-st.bar_chart(df)
+st.sidebar.line_chart(df)
+st.sidebar.bar_chart(df)
 st.area_chart(df)
