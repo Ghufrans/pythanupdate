@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-if page == "🔨 Test Recommendation":
+if np == "🔨 Test Recommendation":
 
         st.header("Test the Recommendations")
 
