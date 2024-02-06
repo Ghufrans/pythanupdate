@@ -11,3 +11,4 @@ df  #magic comments
 # visualize
 st.line_chart(df)
 st.bar_chart(df)
+st.graphviz_chart(df)
