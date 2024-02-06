@@ -1,5 +1,7 @@
-import streamlit as st
-x = st.slider("Select a value")
-st.write(x, "squared is", x * x)import streamlit as st
-x = st.slider("Select a value")
-st.write(x, "squared is", x * x)
+import calendar  
+# Enter the month and year  
+yy = int(input("Enter year: "))  
+mm = int(input("Enter month: "))  
+  
+# display the calendar  
+print(calendar.month(yy,mm))  
