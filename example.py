@@ -1,7 +1,6 @@
-import calendar  
-# Enter the month and year  
-yy = int(input("Enter year: "))  
-mm = int(input("Enter month: "))  
-  
-# display the calendar  
-print(calendar.month(yy,mm))  
+import streamlit as st
+st.title("Korangi Campus")
+x = st.slider("Select a value")
+st.write(x, "squared is", x * x)
+x = st.slider("Select a value")
+st.write(x, "squared is", x * x)
