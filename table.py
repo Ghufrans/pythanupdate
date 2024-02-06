@@ -10,3 +10,4 @@ st.write(df)
 df  #magic comments
 # visualize
 st.line_chart(df)
+st.bar_chart(df)
