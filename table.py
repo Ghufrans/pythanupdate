@@ -11,4 +11,4 @@ df  #magic comments
 # visualize
 st.line_chart(df)
 st.bar_chart(df)
-st.pydeck_chart(df)
+st.area_chart(df)
